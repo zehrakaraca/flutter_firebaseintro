@@ -11,7 +11,6 @@ void main() async {
   FirebaseApp firebaseApp = await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform);
 
-// StreamBuilder => FirebaseAuth.AuthStateChanges
   runApp(
     MaterialApp(
       home: StreamBuilder(
