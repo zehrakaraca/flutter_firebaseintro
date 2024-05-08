@@ -10,7 +10,6 @@ class Auth extends StatefulWidget {
   _AuthState createState() => _AuthState();
 }
 
-//11:15
 class _AuthState extends State<Auth> {
   void _submit() async {
     _registerPage ? _register() : _login();
